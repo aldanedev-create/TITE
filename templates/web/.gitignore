@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+.eggs/
+
+# Testing
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.envrc
+.direnv/
+
+# Logs
+logs/
+*.log
+*.pid
+*.pid.lock
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node (for frontend assets)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Static assets (if built)
+*.min.css
+*.min.js
+*.map
+
+# Tite
+.tite/
+*.tite.lock
+
+# Secrets
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+*.p8
+*.p7b
+*.cer
+*.der
+*.gpg
+*.asc
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.pickle
+*.pkl
+*.joblib
+*.dill
+*.npy
+*.npz
+*.mat
+*.h5
+*.hdf5
+
+# Model files
+*.model
+*.pt
+*.pth
+*.pb
+*.onnx
+*.tflite
+*.weights
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Frontend build
+static/
+*.bundle.js
+*.bundle.css

@@ -1,0 +1,101 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+# Python files
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+# Python type hint files
+[*.pyi]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+# TOML files
+[*.toml]
+indent_style = space
+indent_size = 2
+max_line_length = 88
+
+# YAML files
+[*.{yaml,yml}]
+indent_style = space
+indent_size = 2
+
+# JSON files
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Markdown files
+[*.{md,markdown}]
+indent_style = space
+indent_size = 4
+max_line_length = 120
+trim_trailing_whitespace = false
+
+# Shell scripts
+[*.{sh,bash,zsh}]
+indent_style = space
+indent_size = 2
+
+# Makefiles
+[Makefile]
+indent_style = tab
+
+# Configuration files
+[*.{cfg,conf,ini}]
+indent_style = space
+indent_size = 4
+
+# YAML files
+[*.{yaml,yml}]
+indent_size = 2
+
+# XML files
+[*.xml]
+indent_style = space
+indent_size = 2
+
+# JavaScript / TypeScript
+[*.{js,jsx,ts,tsx}]
+indent_style = space
+indent_size = 2
+
+# HTML / CSS / SCSS
+[*.{html,css,scss,sass}]
+indent_style = space
+indent_size = 2
+
+# Dockerfile
+[Dockerfile]
+indent_style = space
+indent_size = 4
+
+# Gitignore
+[.gitignore]
+indent_style = space
+indent_size = 4
+
+# EditorConfig
+[.editorconfig]
+indent_style = space
+indent_size = 4
+
+# Batch files
+[*.{bat,cmd}]
+end_of_line = crlf

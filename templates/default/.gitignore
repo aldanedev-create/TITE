@@ -1,0 +1,134 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.egg-info/
+MANIFEST
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+pip-wheel-metadata/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Project specific
+logs/
+*.log
+*.pid
+*.pid.lock
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Tite specific
+.tite/
+*.tite.lock
+
+# Secrets
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+*.p8
+*.p7b
+*.cer
+*.der
+*.gpg
+*.asc
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.pickle
+*.pkl
+*.joblib
+*.dill
+*.npy
+*.npz
+*.mat
+*.h5
+*.hdf5
+*.nc
+*.netcdf
+*.feather
+*.arrow
+*.jsonl
+*.ndjson
+
+# Model files
+*.model
+*.models
+*.weights
+*.weight
+*.ckpt
+*.pt
+*.pth
+*.pb
+*.onnx
+*.tflite
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+
+# Backup directories
+backup/
+*.backup
+*.bak

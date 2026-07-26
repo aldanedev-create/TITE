@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ message }}">
+    
+    <!-- Static files -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-rocket logo-icon"></i>
+                <span class="logo-text">{{ title }}</span>
+            </div>
+            <nav class="nav">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Docs</a>
+                <a href="#" class="nav-link">GitHub</a>
+            </nav>
+        </header>
+        
+        <main class="main">
+            <div class="hero">
+                <div class="hero-content">
+                    <span class="badge">
+                        <i class="fas fa-code"></i>
+                        {{ framework }}
+                    </span>
+                    
+                    <h1 class="hero-title">
+                        {{ message }}
+                    </h1>
+                    
+                    <p class="hero-description">
+                        A modern web application built with Python, ready for development and production.
+                        Get started by editing <code>src/templates/index.html</code> or
+                        <code>src/static/css/style.css</code>.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fas fa-play"></i>
+                            Get Started
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-book"></i>
+                            Documentation
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-terminal">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">bash</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">$</span> tite new {{ project_name }}</p>
+                        <p><span class="prompt">$</span> cd {{ project_name }}</p>
+                        <p><span class="prompt">$</span> pip install -r requirements.txt</p>
+                        <p><span class="prompt">$</span> tite dev</p>
+                        <p class="output">✓ Server running on http://localhost:8000</p>
+                    </div>
+                </div>
+            </div>
+            
+            <section class="features">
+                <h2 class="features-title">Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Fast Development</h3>
+                        <p>Hot reload and instant feedback with <code>tite dev</code></p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Production Ready</h3>
+                        <p>Optimized for production with best practices built-in</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h3>Framework Agnostic</h3>
+                        <p>Choose FastAPI, Flask, Django, or any framework</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h3>Modern Stack</h3>
+                        <p>Built with modern tools and best practices</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <span class="footer-copyright">
+                        &copy; 2024 {{ project_name }}. Built with ❤️ using Tite
+                    </span>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="footer-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

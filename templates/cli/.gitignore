@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.egg-info/
+MANIFEST
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.envrc
+.direnv/
+
+# Logs
+logs/
+*.log
+*.pid
+*.pid.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Tite
+.tite/
+*.tite.lock
+
+# Configuration
+config.json
+config.yaml
+config.yml
+.config/
+
+# Secrets
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+*.p8
+*.p7b
+*.cer
+*.der
+*.gpg
+*.asc
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+*.backup

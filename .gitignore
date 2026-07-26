@@ -1,0 +1,1299 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+*.github/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+pythonenv*
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.egg-info/
+*.egg-info/
+MANIFEST
+.eggs/
+*.tar.gz
+*.whl
+develop-eggs/
+downloads/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+pip-wheel-metadata/
+share/python-wheels/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+.mypy_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+test-results/
+
+# Django / Flask / Web
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+.ipython/
+__ipycache__/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+pipenv.pid
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.code-workspace
+.vscode/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.sublime/
+
+# Eclipse
+.project
+.classpath
+.settings/
+*.pydevproject
+
+# Visual Studio
+*.sln
+*.suo
+*.user
+*.userosscache
+*.vs
+.vs/
+
+# Emacs
+*~
+\#*
+.\#*
+
+# Vim
+*.swp
+*.swo
+*.un~
+
+# Windows
+*.pyc
+*.pyd
+*.pyo
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+._*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+.tite/
+*.tite
+*.tite.lock
+.tite-config
+
+# Application logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and keys
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+*.p8
+*.p7b
+*.cer
+*.der
+*.gpg
+*.asc
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfvars.json
+
+# Ansible
+*.retry
+*.tar.gz
+*.tgz
+
+# Docker
+*.dockerignore
+*.dockerfile
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+*.kubeconfig.*
+*.kube
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Web
+*.webmanifest
+*.sw?
+.htaccess
+.htpasswd
+
+# Package manager lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-shrinkwrap.json
+
+# Debug
+*.pdb
+*.dbg
+*.dmp
+
+# Profiling
+*.prof
+*.gcda
+*.gcno
+
+# Benchmark
+*.bench
+*.benchmark
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.feather
+*.h5
+*.hdf5
+*.nc
+*.pkl
+*.pickle
+*.joblib
+*.dill
+*.npy
+*.npz
+*.mat
+*.sav
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
+
+# Image files
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.ico
+*.webp
+
+# Audio files
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+*.aac
+
+# Video files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Archive files
+*.zip
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.tar
+*.tgz
+*.tbz2
+
+# Generated files
+*.gen.py
+*.generated.py
+*.pb.py
+*_grpc.py
+*.pyi
+*.pyi.bak
+
+# Build tools
+build-tools/
+build-scripts/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Cython
+*.c
+*.h
+*.so
+*.pyd
+
+# Testing
+test-output/
+test-reports/
+test-results/
+
+# Load testing
+*.jmx
+*.jmeter
+*.jtl
+
+# Monitoring
+*.hprof
+*.heap
+*.dump
+*.dmp
+
+# IDE specific
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.iml
+*.iws
+*.ipr
+*.classpath
+*.project
+.settings/
+.idea/
+.vscode/
+*.vscode/
+*.vs/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# CI/CD
+.github/
+.azure/
+.gitlab/
+.drone.yml
+.jenkins/
+.teamcity/
+.circleci/
+.travis.yml
+.appveyor.yml
+.gitlab-ci.yml
+.woodpecker/
+.gitea/
+.buildkite/
+
+# Docker
+.docker/
+.dockerignore
+docker-compose.override.yml
+docker-compose.*.yml
+.docker-env
+
+# Kubernetes
+*.kubeconfig
+*.kubeconfig.*
+*.kube
+.helm/
+.helmignore
+Chart.lock
+charts/
+
+# Cloud specific
+.aws/
+.azure/
+.gcloud/
+.oci/
+.ibm/
+.alicloud/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.terraform.lock.hcl
+
+# Ansible
+*.retry
+*.tar.gz
+*.tgz
+.ansible/
+.ansible.cfg
+
+# Serverless
+.serverless/
+.serverless_plugins/
+.serverless_inc/
+
+# Vercel
+.vercel/
+.vercel_build/
+
+# Netlify
+.netlify/
+.netlify_build/
+
+# Heroku
+.heroku/
+.heroku_local/
+
+# Python package index
+.pypirc
+.pypi-config
+
+# Jupyter extensions
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+.ipynb_build/
+.ipynb_cache/
+
+# Custom Tite specific
+.tite-cache/
+.tite-logs/
+.tite-temp/
+*.tite.bak
+.tite-backup/
+
+# Development artifacts
+dev-artifacts/
+development/
+scratch/
+sandbox/
+playground/
+
+# Documentation build
+docs/_build/
+docs/build/
+docs/site/
+docs/html/
+docs/latex/
+docs/man/
+docs/texinfo/
+docs/text/
+docs/_autosummary/
+docs/api/
+
+# Coverage reports
+coverage/
+coverage_html/
+coverage.xml
+htmlcov/
+*.coverage
+*.coverage.*
+.coverage.*
+coverage-*.json
+
+# Profiling results
+profile/
+profiling/
+*.prof
+*.lprof
+*.cprof
+*.pstats
+
+# Benchmark results
+benchmarks/
+bench-results/
+*.bench
+*.benchmark
+
+# Log files
+logs/
+*.log
+*.out
+*.err
+syslog
+access.log
+error.log
+debug.log
+
+# Temporary databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+# Cache files
+*.cache
+*.cached
+*.cache.json
+*.cache.pickle
+*.cache.db
+
+# Lock files
+*.lock
+*.lck
+*.pid
+*.pid.lock
+
+# Config files with secrets
+*.secret
+*.secrets
+*.conf
+*.config.local
+.env.local
+.env.*.local
+settings.local.py
+config.local.py
+secrets.yaml
+secrets.yml
+secrets.toml
+secrets.json
+
+# SSH keys
+*.pem
+*.key
+*.pub
+*.ppk
+*.openssh
+*.ssh
+
+# GPG keys
+*.gpg
+*.asc
+*.sig
+
+# SSL certificates
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.csr
+*.p7b
+*.p8
+*.p7s
+*.spc
+*.pem
+
+# OAuth tokens
+*.token
+*.oauth
+*.access_token
+*.refresh_token
+
+# API keys
+*.apikey
+*.api-key
+*.api-key.json
+*.api-key.yaml
+*.api-key.yml
+
+# Environment variables
+.env
+.env.*
+!.env.example
+.envrc
+.direnv/
+*.env.local
+*.env.*.local
+
+# IDE specific settings
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.iml
+*.iws
+*.ipr
+*.classpath
+*.project
+.settings/
+.idea/
+.vscode/
+*.vscode/
+*.vs/
+.vs/
+.qtc/
+.clion/
+.stfolder/
+.svn/
+.hg/
+
+# Build tools
+build/
+build-*/
+build-*.*/
+build-*/
+*.build
+*.build-*/
+dist/
+dist-*/
+*.dist
+*.dist-*/
+lib/
+lib64/
+lib-*/
+lib-*.*/
+include/
+include-*/
+include-*.*/
+bin/
+bin-*/
+bin-*.*/
+share/
+share-*/
+share-*.*/
+
+# Development tools
+.devcontainer/
+.devcontainer.json
+.containerd/
+.containerd.json
+.nix/
+.nix-shell
+.old/
+.old-*/
+.backup/
+.backup-*/
+.archive/
+.archive-*/
+.deprecated/
+.deprecated-*/
+
+# Generated code
+generated/
+gen/
+gen-*/
+*.gen.py
+*.gen.go
+*.gen.js
+*.gen.ts
+*.gen.cpp
+*.gen.h
+*.gen.c
+*.gen.hpp
+*.gen.cc
+*.gen.cs
+*.gen.java
+*.gen.rb
+*.gen.php
+*.gen.rs
+*.gen.swift
+*.gen.kt
+*.gen.scala
+*.gen.ex
+*.gen.el
+*.gen.clj
+*.gen.erl
+*.gen.lua
+*.gen.r
+*.gen.ml
+*.gen.dart
+*.gen.zig
+*.gen.v
+*.gen.cr
+*.gen.nim
+
+# Protocol buffers
+*.pb.cc
+*.pb.h
+*.pb.go
+*.pb.swift
+*.pb.java
+*.pb.objc
+*.pb.c
+*.pb.cpp
+*.pb.hh
+*.pb.cxx
+*.pb.hxx
+*.pb.py
+*.pb2.py
+*.pb2_grpc.py
+*_grpc.pb.go
+*_pb2.py
+*_pb2_grpc.py
+
+# gRPC
+*_grpc.py
+*_grpc.cc
+*_grpc.h
+*_grpc.go
+*_grpc.swift
+*_grpc.java
+*_grpc.objc
+
+# GraphQL
+*.graphql
+*.gql
+schema.graphql
+schema.gql
+*.graphqls
+*.gqls
+
+# OpenAPI / Swagger
+*.swagger.json
+*.swagger.yaml
+*.openapi.json
+*.openapi.yaml
+*.oas.json
+*.oas.yaml
+
+# Postman
+*.postman_collection.json
+*.postman_environment.json
+*.postman_globals.json
+
+# Insomnia
+*.insomnia.json
+*.insomnia.yaml
+
+# BRUNO
+*.bru.json
+*.bru.yaml
+
+# HTTP clients
+*.http
+*.rest
+*.bruno
+*.insomnia
+
+# Data analysis
+*.data
+*.data-*
+*.dataset
+*.datasets
+*.dataframe
+*.dataframes
+
+# Machine learning
+*.model
+*.models
+*.weight
+*.weights
+*.checkpoint
+*.checkpoints
+*.ckpt
+*.pth
+*.pt
+*.pb
+*.h5
+*.hdf5
+*.onnx
+*.tflite
+*.json
+*.pickle
+*.pkl
+*.joblib
+*.dill
+*.mar
+*.mmar
+*.zip
+*.tar.gz
+*.tgz
+*.bz2
+*.gz
+
+# NLP data
+*.vocab
+*.vocab.json
+*.vocab.txt
+*.bpe
+*.spm
+*.sentencepiece
+*.tokenizer
+*.tokenizers
+*.merges.txt
+*.vocab.txt
+
+# Embeddings
+*.embed
+*.embedding
+*.embeddings
+*.vec
+*.vectors
+*.w2v
+*.glove
+*.fasttext
+*.elmo
+*.bert
+*.roberta
+*.distilbert
+*.albert
+*.xlm-roberta
+*.electra
+*.deberta
+*.t5
+*.gpt
+*.llama
+*.mistral
+*.llama2
+*.llama3
+*.gpt2
+*.gpt3
+*.gpt4
+
+# Audio models
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+*.pcm
+*.raw
+*.u-law
+*.a-law
+*.gsm
+*.opus
+*.speex
+*.vorbis
+*.opus
+
+# Image models
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.svg
+*.ico
+*.raw
+*.dng
+*.nef
+*.cr2
+*.cr3
+*.arw
+*.rw2
+*.orf
+*.pef
+*.sr2
+*.erf
+*.raf
+*.mrw
+*.3fr
+*.kdc
+*.mef
+*.mos
+*.rwl
+*.srf
+*.srw
+*.x3f
+
+# Video models
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+*.3gp
+*.3g2
+*.ogv
+*.ts
+*.mts
+*.m2ts
+*.mxf
+*.gifv
+
+# Container images
+*.docker
+*.container
+*.image
+*.sif
+*.simg
+*.sqsh
+*.squashfs
+
+# Compiled code
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.out
+*.app
+*.ipa
+*.apk
+*.aab
+*.xapk
+*.deb
+*.rpm
+*.pkg
+*.msi
+*.exe
+*.dmg
+
+# Debug symbols
+*.dbg
+*.pdb
+*.sym
+*.debug
+*.debuginfo
+*.dwarf
+
+# Core dumps
+core
+*.core
+core.*
+*.dump
+
+# Performance profiling
+*.perf
+*.profile
+*.callgrind
+*.cachegrind
+*.massif
+*.valgrind
+
+# Memory dumps
+*.heap
+*.hprof
+*.jmap
+*.dump
+*.dmp
+*.mdmp
+*.minidump
+
+# Static analysis
+*.analyze
+*.analysis
+*.analytics
+*.scan
+*.scanned
+*.lint
+*.linter
+*.linted
+
+# Security scans
+*.vuln
+*.vulnerability
+*.vulnerabilities
+*.cve
+*.cves
+*.sast
+*.sca
+*.dependency-check
+*.owasp
+*.trivy
+*.grype
+*.snyk
+*.clair
+*.anchore
+
+# Load testing
+*.jmx
+*.jmeter
+*.jtl
+*.k6
+*.k6.js
+*.locust
+*.locustfile
+*.vegeta
+*.wrk
+*.ab
+*.siege
+*.tsung
+
+# Stress testing
+*.stress
+*.stress-test
+*.load-test
+*.soak-test
+*.spike-test
+*.breakpoint-test
+
+# Functional testing
+*.test
+*.tests
+*.spec
+*.specs
+*.feature
+*.features
+*.scenario
+*.scenarios
+*.step
+*.steps
+*.bdd
+*.tdd
+
+# Integration testing
+*.itest
+*.integration
+*.e2e
+*.end-to-end
+*.acceptance
+*.uat
+*.regression
+*.smoke
+*.sanity
+*.exploratory
+
+# Unit testing
+*.utest
+*.unittest
+*.unit-test
+*.spec-test
+*.integration-test
+*.system-test
+
+# Test artifacts
+test-artifacts/
+test-results/
+test-output/
+test-reports/
+test-logs/
+test-screenshots/
+test-videos/
+test-recordings/
+test-dumps/
+test-coverage/
+test-cache/
+test-temp/
+
+# Monitoring
+*.prom
+*.prometheus
+*.grafana
+*.datadog
+*.newrelic
+*.dynatrace
+*.appdynamics
+*.instana
+*.elastic
+*.kibana
+*.logstash
+*.beats
+*.filebeat
+*.metricbeat
+*.auditbeat
+*.heartbeat
+*.winlogbeat
+*.packetbeat
+*.journalbeat
+*.functionbeat
+
+# Log aggregation
+*.json.log
+*.ndjson
+*.grok
+*.parsed
+*.processed
+*.enriched
+*.indexed
+*.shipped
+*.archived
+*.rotated
+
+# Alerting
+*.alert
+*.alerts
+*.alerting
+*.monitoring
+*.metric
+*.metrics
+*.threshold
+*.thresholds
+*.anomaly
+*.anomalies
+*.outlier
+*.outliers
+
+# Dashboards
+*.dashboard
+*.dashboards
+*.grafana.json
+*.grafana.yaml
+*.kibana.json
+*.kibana.yaml
+*.datadog.json
+*.datadog.yaml
+*.newrelic.json
+*.newrelic.yaml
+
+# Reporting
+*.report
+*.reports
+*.report.json
+*.report.yaml
+*.report.yml
+*.report.pdf
+*.report.html
+*.report.xlsx
+*.report.csv
+*.report.tsv
+*.report.parquet
+*.report.arrow
+*.report.feather
+*.report.h5
+*.report.hdf5
+
+# Business intelligence
+*.bi
+*.business-intelligence
+*.analytics.json
+*.analytics.yaml
+*.analytics.yml
+*.dashboard.json
+*.dashboard.yaml
+*.dashboard.yml
+*.metric.json
+*.metric.yaml
+*.metric.yml
+*.kpi.json
+*.kpi.yaml
+*.kpi.yml
+
+# Data warehousing
+*.dwh
+*.data-warehouse
+*.etl
+*.elt
+*.data-pipeline
+*.dataflow
+*.dataproc
+*.datafusion
+*.data-integration
+*.data-migration
+
+# Data science notebooks
+*.ipynb
+*.ipynb.json
+*.ipynb.yaml
+*.ipynb.yml
+*.rnotebook
+*.rmd
+*.qmd
+*.rpres
+*.revealjs
+*.ioslides
+*.beamer
+*.slidy
+
+# Data visualization
+*.plot
+*.plots
+*.figure
+*.figures
+*.graph
+*.graphs
+*.chart
+*.charts
+*.histogram
+*.boxplot
+*.scatterplot
+*.linechart
+*.barchart
+*.piechart
+*.heatmap
+*.treemap
+*.network
+*.tree
+*.dendrogram
+*.visualization
+*.viz
+
+# Geospatial
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbx
+*.sbn
+*.cpg
+*.qix
+*.qmd
+*.gpkg
+*.geojson
+*.topojson
+*.kml
+*.kmz
+*.gpx
+*.gml
+*.geotiff
+*.tif
+*.tfw
+*.ovr
+*.aux
+*.rrd
+*.raster
+*.vector
+
+# Time series
+*.ts
+*.time-series
+*.timeseries
+*.temporal
+*.timeline
+*.timestamps
+*.chronological
+*.periodic
+*.interval
+*.frequency
+*.trend
+*.seasonal
+*.cyclic

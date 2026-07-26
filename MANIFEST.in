@@ -1,0 +1,38 @@
+# Include project files
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include SECURITY.md
+include pyproject.toml
+
+# Include source code
+recursive-include src/tite *.py
+
+# Include test files
+recursive-include tests *.py
+
+# Include documentation
+recursive-include docs *
+
+# Exclude development files
+exclude .gitignore
+exclude .pre-commit-config.yaml
+exclude .bandit
+exclude .coveragerc
+exclude .mypy.ini
+
+exclude *.pyc
+exclude *.pyo
+exclude *.pyd
+exclude __pycache__
+
+# Exclude virtual environment
+exclude .venv *
+exclude venv *
+
+# Exclude build artifacts
+exclude build *
+exclude dist *
+exclude *.egg-info *

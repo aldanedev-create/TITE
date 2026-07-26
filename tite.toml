@@ -1,0 +1,23 @@
+# Tite Project Configuration
+
+[project]
+name = "{{ project_name }}"
+version = "0.1.0"
+python_version = ">=3.12"
+
+[dev]
+command = "python src/main.py"
+port = 8000
+host = "127.0.0.1"
+
+[watcher]
+paths = ["src", "tests"]
+extensions = [".py", ".pyc"]
+ignore = [".venv", "__pycache__", "*.egg-info"]
+
+[clean]
+include = ["__pycache__", ".pytest_cache", ".mypy_cache", "build", "dist", "*.pyc", "*.pyo"]
+
+[git]
+init = true
+ignore = [".venv", "__pycache__", "*.pyc", ".env", "dist", "build", "*.egg-info"]
