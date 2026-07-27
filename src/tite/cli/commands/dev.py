@@ -282,7 +282,7 @@ def run_dev(args: Dict[str, Any]) -> int:
     """
     host = args.get("host", "127.0.0.1")
     port = args.get("port", 8000)
-    command = args.get("command")
+    command = args.get("run_command")
     no_reload = args.get("no_reload", False)
     
     project_dir = Path.cwd()

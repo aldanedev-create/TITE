@@ -134,19 +134,19 @@ class BlueprintValidator:
                 field_schema = self.schema.fields[field]
                 self._validate_field(field, value, field_schema)
                 
-    def _validate_field(self, field: str, value: Any, field_schema: Dict[str, Any]) -> None:
+    def _validate_field(self, field: str, value: Any, field_schema: Any) -> None:
         """
         Validate a single field.
         
         Args:
             field: Field name
             value: Field value
-            field_schema: Field schema
+            field_schema: Field schema (a SchemaField instance)
         """
-        field_type = field_schema.get("type", SchemaType.STRING)
-        required = field_schema.get("required", False)
-        allowed_values = field_schema.get("allowed", [])
-        pattern = field_schema.get("pattern")
+        field_type = field_schema.type
+        required = field_schema.required
+        allowed_values = field_schema.allowed
+        pattern = field_schema.pattern
         
         # Check required
         if required and value is None:

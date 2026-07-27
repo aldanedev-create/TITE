@@ -35,7 +35,7 @@ class BlueprintTemplateEngine:
         """
         if template_dir is None:
             # Find templates directory relative to this file
-            current_file = Path(__file__).parent.parent.parent
+            current_file = Path(__file__).parent.parent
             template_dir = current_file / "templates"
             
         self.template_dir = Path(template_dir)

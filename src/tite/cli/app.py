@@ -92,6 +92,10 @@ def main(args: Optional[list] = None) -> int:
             from tite.cli.commands.version import run_version
             return run_version(command_args)
         
+        elif command == "blueprint":
+            from tite.cli.commands.blueprint import run_blueprint
+            return run_blueprint(command_args)
+        
         else:
             raise CommandNotFoundError(command=command)
     

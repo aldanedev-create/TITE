@@ -116,6 +116,7 @@ def create_parser() -> argparse.ArgumentParser:
     )
     dev_parser.add_argument(
         "--command",
+        dest="run_command",
         help="Command to run (overrides tite.toml)"
     )
     

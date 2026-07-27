@@ -83,8 +83,7 @@ class BootstrapManager:
         self.created_files: List[str] = []
 
         self._tite_pkg_dir = Path(__file__).resolve().parent.parent
-        self._repo_root = self._tite_pkg_dir.parent.parent
-        self._templates_root = self._repo_root / "templates"
+        self._templates_root = self._tite_pkg_dir / "templates"
 
         self._file_manager = FileSystemManager(self.project_path)
         self._renderer = TemplateRenderer()
