@@ -18,7 +18,7 @@ This project and everyone participating in it is governed by our [Code of Conduc
 
 ```bash
 # Fork and clone the repository
-git clone https://github.com/yourusername/tite.git
+git clone https://github.com/aldanedev-create/TITE.git
 cd tite
 
 # Create virtual environment
