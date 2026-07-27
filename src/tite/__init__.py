@@ -20,7 +20,7 @@ Examples:
     Project 'my-app' created successfully!
 """
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "Aldane Hutchinson"
 __email__ = "aldanehutchinson5@gmail.com"
 __license__ = "MIT"
