@@ -321,17 +321,7 @@ npm-shrinkwrap.json
 *.pb
 *.tflite
 
-# Image files
-*.jpeg
-*.jpg
-*.png
-*.gif
-*.bmp
-*.tiff
-*.tif
-*.svg
-*.ico
-*.webp
+
 
 # Audio files
 *.mp3
@@ -929,7 +919,6 @@ schema.gql
 # Container images
 *.docker
 *.container
-*.image
 *.sif
 *.simg
 *.sqsh
