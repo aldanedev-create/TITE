@@ -996,11 +996,8 @@ schema.gql
 *.debuginfo
 *.dwarf
 
-# Core dumps
-core
-*.core
-core.*
-*.dump
+
+
 
 # Performance profiling
 *.perf
